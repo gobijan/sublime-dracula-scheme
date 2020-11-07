@@ -163,3 +163,27 @@ Or also deduct our own Proish variant using color theory (indluded in this fork)
 "line-highlight": "var(selection)",
 "accent": "var(blue)",
 ```
+
+Ariake Dark Scheme:
+
+![Ariake Dark](screenshots/ariake_dark.png)
+
+```js
+// Static palette colors. These are constant through all variations.
+"foreground": "hsl(228, 25%, 78%)",
+"red": "hsl(211, 60%, 70%)",
+"orange": "hsl(282, 82%, 80%)",
+"yellow": "hsl(264, 86%, 70%)",
+"green": "hsl(177, 72%, 77%)",
+"cyan": "hsl(197, 92%, 78%)",
+"blue": "hsl(211, 97%, 98%)",
+"pink": "hsl(211, 55%, 55%)",
+"purple": "hsl(240, 58%, 68%)",
+
+// Variant specific colors (change these for variants)
+"background": "hsl(228, 13%, 12%)",
+"selection": "hsl(228, 15%, 15%)",
+"comment": "color(var(blue) s(25%) l(50%))",
+"line-highlight": "var(selection)",
+"accent": "hsl(228, 100%, 66%)",
+```
